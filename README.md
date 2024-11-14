@@ -1,2 +1,3 @@
-# fzf
-A helper plugin for users with fzf installed
+# ZSH Fzf
+
+A helper plugin for users with [fzf](https://github.com/junegunn/fzf) installed

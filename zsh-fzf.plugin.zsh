@@ -9,7 +9,7 @@ if command -v fzf &> /dev/null; then
     [ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
     
-    if [[ "$(uname -s)" == "Darwin" && "$(command -v brew)" != "" ]] ; then
+    if [[ "$(command -v brew)" != "" ]] ; then
         local FZF_HOME=$(brew --prefix)/opt/fzf
         [ -f $FZF_HOME/shell/completion.zsh ] && source $FZF_HOME/shell/completion.zsh
         [ -f $FZF_HOME/shell/key-bindings.zsh ] && source $FZF_HOME/shell/key-bindings.zsh
